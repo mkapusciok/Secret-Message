@@ -32,9 +32,13 @@ let secretMessage = [
   secretMessage.push("to", "program");
   console.log(secretMessage);
   
-  console.log(secretMessage.indexOf('easily'));
-  secretMessage[7] = 'right';
+  console.log(secretMessage.indexOf("easily"));
+  secretMessage[7] = "right";
   console.log(secretMessage);
-
+  
   secretMessage.shift();
   console.log(secretMessage);
+  
+  secretMessage.unshift("Programming");
+  console.log(secretMessage);
+  
