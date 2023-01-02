@@ -24,3 +24,5 @@ let secretMessage = [
   "Learn",
   "JavaScript",
 ];
+
+secretMessage.pop();
