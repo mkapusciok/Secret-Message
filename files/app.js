@@ -35,3 +35,6 @@ let secretMessage = [
   console.log(secretMessage.indexOf('easily'));
   secretMessage[7] = 'right';
   console.log(secretMessage);
+
+  secretMessage.shift();
+  console.log(secretMessage);
